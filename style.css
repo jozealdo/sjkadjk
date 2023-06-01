@@ -1,0 +1,75 @@
+header{
+    background:#bbbbbb;
+    padding: 20px 0;
+}
+.caixa{position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav { position:absolute;
+    top: 110px;
+    right: 0;
+}
+nav li { display: inline;
+    margin: 0 0 0 15;
+
+}
+nav a { text-transform: uppercase;
+    color: rgb(10, 47, 80);
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(153, 27, 202);
+    text-decoration: underline;
+}
+.rapeize {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.rapeize li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #bbbbbb;
+    border-radius: 10px;
+}
+.rapeize li:hover{
+    border-color: blueviolet;
+}
+.rapeize li:active{
+}
+.rapeize li:hover h2{
+    font-size: 34px;
+}
+.Jean-d{
+    font-size: 18px;
+}
+.artur-a{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Ryan-s{
+    font-size: 18px;
+}
+footer{
+    background-color: #bbbbbb;
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: aquamarine;
+    font-size: 13px;
+    padding: 40px 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
